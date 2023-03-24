@@ -1,20 +1,18 @@
 Role Name
 =========
 
-Run random stuff to checn endpoint protection
+Run random stuff to check endpoint protection solutions
+
+Random name generator care of https://github.com/awesmubarak/username_generator_cli
 
 Role Variables
 --------------
 
 
-Example Playbook
+Example Usage
 ----------------
 
-   ansible-playbook -i inventory tasks/add_users.yml
-   ansible-playbook -i inventory tasks/remove_users.yml
-
-
-Author Information
-------------------
-
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+```
+ansible-playbook -i inventory tasks/add_users.yml
+ansible-playbook -i inventory tasks/remove_users.yml
+```
