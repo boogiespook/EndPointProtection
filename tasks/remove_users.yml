@@ -1,0 +1,11 @@
+---
+# tasks file for EndPointProtection checks
+- hosts: test
+  vars_files: 
+    - ../vars/userlist.yml
+  tasks:
+      - name: Add in all the users
+        user:
+         name: "{{ item }}"
+         state: absent
+        with_items: "{{ user_name }}"        

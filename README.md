@@ -10,7 +10,8 @@ Role Variables
 Example Playbook
 ----------------
 
-# ansible-playbook -i inventory tasks/main.yml
+   ansible-playbook -i inventory tasks/add_users.yml
+   ansible-playbook -i inventory tasks/remove_users.yml
 
 
 Author Information
